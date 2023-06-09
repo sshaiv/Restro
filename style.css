@@ -1,18 +1,26 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.bg{
+
+.bg {
     overflow-x: hidden;
-    overflow-y:scroll;
+    overflow-y: scroll;
 }
-.All{
-    background-image: url(background.jpg);
-    height:70%;
+
+.All {
+    background-color: black;
+    height: 20%;
     width: 100%;
     background-size: cover;
     opacity: 0.75;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
 }
+
 /* .logo a svg{
     height:50px ;
     position: relative;
@@ -22,116 +30,123 @@
     border-radius: 100%;
     padding: 10px;
 } */
-.menu-items{
-    position: relative;
- 
-    left:1030px;
-  margin: 0;
-  bottom: 90px;
-  
+.menu-items {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
-.menu-items :first-child{
+
+.menu-items :first-child {
     background-color: bisque;
 }
-.menu-items svg{
+
+.menu-items svg {
     position: relative;
     height: 15px;
     width: 25px;
 
 }
-.menu-items a{
-     color: black;
+
+.menu-items a {
+    margin: 5px;
+    color: black;
     font-size: larger;
     padding: 10px;
     text-decoration: dotted;
     font-size: 25px;
     position: relative;
     background-color: aliceblue;
-    border-radius: 20px;    
+    border-radius: 20px;
 }
-.menu-items a:hover{
+
+.menu-items a:hover {
     color: red;
     text-decoration: none;
-   background-color: bisque;
- 
-   
+    background-color: bisque;
+
+
 }
 
-.info p{
-    position: relative;
+.info {
     color: rgb(255, 0, 0);
-   font-size: 35px;
-    left: 20px;
-    top: 10px;
+    font-size: 1.8rem;
     background-color: rgb(186, 202, 116);
-    width: 90px;
+    width: 5%;
     border-radius: 100%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    
-}
-.info span{
-    color: rgb(101, 1, 1);
+    margin: 20px;
 }
 
-.categories{
+/* .info span {
+    color: rgb(101, 1, 1);
+} */
+
+.categories {
     margin: 0;
     position: relative;
     /* top: 150px; */
     height: 20px;
     width: 20px;
     display: inline;
-      
+
 }
-.categories-item{
+
+.categories-item {
     background-color: rgb(174, 178, 179);
     height: 85px;
 }
-.categories-item img{
-    position:relative;
-   height: 80px;
+
+.categories-item img {
+    position: relative;
+    height: 80px;
     width: 80px;
     left: 10px;
     bottom: 14px;
-    border-radius: 100% ; 
+    border-radius: 100%;
     padding: 15px;
 }
 
 
-.footer{
-    margin:0;
+.footer {
+    margin: 0;
     padding: 0;
 }
 
-.footer-item{
+.footer-item {
     background-color: rgb(126, 134, 127);
     height: 30%;
     position: relative;
     top: 0px;
 }
-.details{
+
+.details {
     color: rgb(0, 0, 0);
-    text-align:left;
+    text-align: left;
     list-style: none;
 
     position: relative;
 
     top: 20px;
-    font-size: 20px;   
-    
+    font-size: 20px;
+
 }
-.details ul li{
+
+.details ul li {
     padding: 5px;
 }
-.follow-us{
-  
+
+.follow-us {
+
     position: relative;
     text-align: center;
 
 }
 
 
-.follow-us   svg{
+.follow-us svg {
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -141,25 +156,25 @@
     padding: 5px;
 
 }
-.follow-us h6{
-color: rgb(10, 9, 9);
-font-size:25px ;
-position: relative;
-bottom: 110px;
+
+.follow-us h6 {
+    color: rgb(10, 9, 9);
+    font-size: 25px;
+    position: relative;
+    bottom: 110px;
 
 }
-.address{
+
+.address {
     color: rgb(10, 9, 9);
     position: relative;
     text-align: end;
     right: 100px;
     bottom: 180px;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
-.address h6{
+.address h6 {
     color: rgb(0, 0, 0);
     font-size: 30px;
 }
-
-
